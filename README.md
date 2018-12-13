@@ -6,17 +6,42 @@
 
 
 ## Contents
-- [Introduction](#general)
+- [General](#general)
 - [Interview Resources](#interview)
+- [Chatbot](#chatbot)
 
 <a name="general" />
 
-## Introduction
+## General
 
 - [Tom Mitchell's Machine Learning Class recording](https://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml)
 - [Machine Learning Course by Andrew Ng (Stanford University)](https://www.coursera.org/learn/machine-learning)
 - [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
 
+
+<a name="chatbot" />
+
+## Chatbot
+
+- [Building ML models is hard. Deploying them in real business environments is harder.](http://ocadotechnology.com/blog/building-ml-models-is-hard-deploying-them-in-real-business-environments-is-harder/)
+- [How Ocado uses machine learning to improve customer service](http://ocadotechnology.com/blog/how-ocado-uses-machine-learning-to-improve-customer-service/index.html)
+- [Understanding Architecture Models of Chatbot and Response Generation Mechanisms](https://dzone.com/articles/understanding-architecture-models-of-chatbot-and-r)
+- [Chatbots with Machine Learning: Building Neural Conversational Agents](https://blog.statsbot.co/chatbots-machine-learning-e83698b1a91e)
+
+
+### Evaluating Chatbot
+- [Should I make decisions based on micro-averaged or macro-averaged evaluation measures?](https://stats.stackexchange.com/questions/156923/should-i-make-decisions-based-on-micro-averaged-or-macro-averaged-evaluation-mea)
+
+
+<a name="cnn" />
+
+## CNN
+- [Convolutional Neural Networks cheatsheet - Stanford](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks)
+
+<a name="rnn" />
+
+## RNN
+- [Recurrent Neural Networks cheatsheet - Stanford](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
 
 <a name="interview" />
 
