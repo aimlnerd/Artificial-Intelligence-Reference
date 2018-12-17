@@ -7,9 +7,11 @@
 
 ## Contents
 - [General](#general)
-- [Interview Resources](#interview)
+- [CNN](#cnn)
+- [RNN](#rnn)
+- [SVM](#svm)
 - [Chatbot](#chatbot)
-
+- [Interview Resources](#interview)
 <a name="general" />
 
 ## General
@@ -18,6 +20,45 @@
 - [Machine Learning Course by Andrew Ng (Stanford University)](https://www.coursera.org/learn/machine-learning)
 - [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
 
+<a name="cnn" />
+
+## CNN
+- [Convolutional Neural Networks cheatsheet - Stanford](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks)
+
+<a name="rnn" />
+
+## RNN
+- [Recurrent Neural Networks cheatsheet - Stanford](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
+
+
+<a name="SVM" />
+
+## SVM
+### RBF kernel parameter
+Kernel gives simillarity between any two points(i.e. rows) in the data
+
+![RBF Kernel](https://www.mathworks.com/responsive_image/150/0/0/0/0/cache/matlabcentral/mlc-downloads/downloads/submissions/67021/versions/2/screenshot.jpg)
+~~~
+Technically, the gamma parameter is the inverse of the standard deviation of the RBF kernel (Gaussian function), which is used as similarity measure between two points.  
+            γ=1/(2σ^2) 
+Intuitively, a small gamma value define a Gaussian function with a large variance. 
+In this case, two points can be considered similar even if are far from each other. 
+
+In the other hand, a large gamma value means define a Gaussian function with a small variance. 
+In this case, two points are considered similar just if they are close to each other.
+~~~
+#### Influence of Gamma on decision boundary
+~~~
+High gamma --> low variance --> Points closer will have very high simillarity score.
+So points closer to decision boundary will have very high influence on decision boundary compared to far away training points.
+So the points closer will pull the decision boundary towards itself leading to wiggly decision boundary.
+
+Low gamma --> high variance --> Points far away will have also have sufficient simillarity score. 
+So points far away from decision boundary will have sufficient influence on decision boundary.
+So the points closer will not pull the decision boundary towards itself unlike the other case. So this leads to more linear decision boundary.
+~~~
+* [SVM Gamma Parameter - Udacity](https://www.youtube.com/watch?v=m2a2K4lprQw)
+* [SVM Parameters When Using RBF Kernel](https://chrisalbon.com/machine_learning/support_vector_machines/svc_parameters_using_rbf_kernel/)
 
 <a name="chatbot" />
 
@@ -32,16 +73,6 @@
 ### Evaluating Chatbot
 - [Should I make decisions based on micro-averaged or macro-averaged evaluation measures?](https://stats.stackexchange.com/questions/156923/should-i-make-decisions-based-on-micro-averaged-or-macro-averaged-evaluation-mea)
 
-
-<a name="cnn" />
-
-## CNN
-- [Convolutional Neural Networks cheatsheet - Stanford](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks)
-
-<a name="rnn" />
-
-## RNN
-- [Recurrent Neural Networks cheatsheet - Stanford](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
 
 <a name="interview" />
 
