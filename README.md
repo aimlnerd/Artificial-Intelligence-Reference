@@ -7,6 +7,7 @@
 
 ## Contents
 - [General](#general)
+- [Text Classifcation](#textclassification)  
 - [CNN](#cnn)
 - [RNN](#rnn)
 - [SVM](#svm)
@@ -19,6 +20,15 @@
 - [Tom Mitchell's Machine Learning Class recording](https://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml)
 - [Machine Learning Course by Andrew Ng (Stanford University)](https://www.coursera.org/learn/machine-learning)
 - [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
+
+
+<a name="textclassification" />
+
+## Text Classifcation
+- [Microsoft Text Analytics Guide](https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/text-analytics)
+- [Microsoft Text Classification Guide](https://gallery.azure.ai/Experiment/f43e79f47d8a4219bf8613d271ea2c45)
+- [Google Text Classification Guide](https://developers.google.com/machine-learning/guides/text-classification/)
+
 
 <a name="cnn" />
 
@@ -68,7 +78,7 @@ So the points closer will not pull the decision boundary towards itself unlike t
 - [How Ocado uses machine learning to improve customer service](http://ocadotechnology.com/blog/how-ocado-uses-machine-learning-to-improve-customer-service/index.html)
 - [Understanding Architecture Models of Chatbot and Response Generation Mechanisms](https://dzone.com/articles/understanding-architecture-models-of-chatbot-and-r)
 - [Chatbots with Machine Learning: Building Neural Conversational Agents](https://blog.statsbot.co/chatbots-machine-learning-e83698b1a91e)
-
+- [Building a FAQ Chatbot in Python using RASA NLU](https://www.analyticsvidhya.com/blog/2018/01/faq-chatbots-the-future-of-information-searching/?utm_source=linkedin.com&utm_medium=social)
 
 ### Evaluating Chatbot
 - [Should I make decisions based on micro-averaged or macro-averaged evaluation measures?](https://stats.stackexchange.com/questions/156923/should-i-make-decisions-based-on-micro-averaged-or-macro-averaged-evaluation-mea)
